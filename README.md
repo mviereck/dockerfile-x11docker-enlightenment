@@ -1,5 +1,5 @@
 # x11docker/enlightenment
-Base image enlightenment window manager (based on [Void Linux](https://www.voidlinux.eu/))
+Base image Enlightenment window manager (based on [Void Linux](https://www.voidlinux.eu/))
  - Run enlightenment desktop in docker.
  - Use x11docker to run GUI applications and desktop environments in docker images.
  - Get [x11docker from github](https://github.com/mviereck/x11docker)
