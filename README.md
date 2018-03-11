@@ -26,7 +26,7 @@ Look at `x11docker --help` for further options.
 To add your desired applications, create your own Dockerfile with this image as a base. Example:
 ```
 FROM x11docker/enlightenment
-RUN xbps-install -Suy midori
+RUN xbps-install -Suy midori glibc
 ```
 
  # Screenshot
