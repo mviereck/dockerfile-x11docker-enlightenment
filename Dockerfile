@@ -9,7 +9,17 @@
 # Run with hardware acceleration and init system runit:
 #   x11docker --desktop --gpu --runit x11docker/enlightenment
 #
-# Use option --home to create a persistant home folder.
+
+# Options:
+# Persistent home folder stored on host with   --home
+# Shared host folder with                      --sharedir DIR
+# Hardware acceleration with option            --gpu
+# Clipboard sharing with option                --clipboard
+# Sound support with option                    --alsa
+# With pulseaudio in image, sound support with --pulseaudio
+# Language locale setting with                 --lang=$LANG
+#
+# Look at x11docker --help for further options.
 
 FROM voidlinux/voidlinux
 
@@ -22,3 +32,4 @@ RUN ln -s /etc/sv/dbus       /etc/runit/runsvdir/default ;\
     ln -s /etc/sv/consolekit /etc/runit/runsvdir/default
 
 CMD enlightenment_start
+
