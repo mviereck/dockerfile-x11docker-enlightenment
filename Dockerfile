@@ -26,10 +26,6 @@ FROM voidlinux/voidlinux
 RUN xbps-install -Su -y
 RUN xbps-install -S -y enlightenment liberation-fonts-ttf \
     ConsoleKit2 leafpad lxterminal \
-    mesa-ati-dri mesa-intel-dri mesa-nouveau-dri
-
-RUN ln -s /etc/sv/dbus       /etc/runit/runsvdir/default ;\
-    ln -s /etc/sv/consolekit /etc/runit/runsvdir/default
+    mesa-ati-dri mesa-intel-dri mesa-nouveau-dri kmod
 
 CMD enlightenment_start
-
