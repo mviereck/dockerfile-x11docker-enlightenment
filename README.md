@@ -30,6 +30,6 @@ RUN xbps-install -Suy midori glibc
 ```
 
  # Screenshot
-enlightenent desktop running with x11docker:
+enlightenment desktop running with x11docker:
  
  ![screenshot](https://raw.githubusercontent.com/mviereck/x11docker/screenshots/screenshot-enlightenment.png "enlightenment windowmanager running with x11docker")
