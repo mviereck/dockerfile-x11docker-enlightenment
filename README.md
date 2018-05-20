@@ -20,7 +20,7 @@ x11docker --desktop --gpu --runit x11docker/enlightenment
  - With pulseaudio in image, sound support with `--pulseaudio`
  - Language locale settings with                `--lang $LANG`
 
-Look at `x11docker --help` for further options.
+Look at `x11docker --help` for further options. 
 
 # Extend base image
 To add your desired applications, create your own Dockerfile with this image as a base. Example:
