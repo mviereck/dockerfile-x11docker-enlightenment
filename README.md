@@ -18,7 +18,7 @@ x11docker --desktop --gpu --init=runit x11docker/enlightenment
  - Clipboard sharing with option                `--clipboard`
  - Sound support with option                    `--alsa`
  - With pulseaudio in image, sound support with `--pulseaudio`
- - Language locale settings with                `--lang $LANG`
+ - Language locale settings with                `--lang [=$LANG]`
 
 Look at `x11docker --help` for further options. 
 
