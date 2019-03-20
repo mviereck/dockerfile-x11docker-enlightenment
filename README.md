@@ -8,7 +8,7 @@ Base image Enlightenment window manager (based on [Void Linux](https://www.voidl
 # Command example
 Run with hardware acceleration and init system runit:
 ```
-x11docker --desktop --gpu --runit x11docker/enlightenment
+x11docker --desktop --gpu --init=runit x11docker/enlightenment
 ```
 
 # Options
