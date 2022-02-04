@@ -24,8 +24,7 @@
 FROM voidlinux/voidlinux
 
 RUN xbps-install -Su -y
-RUN xbps-install -S -y enlightenment liberation-fonts-ttf \
-    ConsoleKit2 leafpad lxterminal \
-    mesa-ati-dri mesa-intel-dri mesa-nouveau-dri kmod xz ||:
-
+RUN xbps-install -S -y enlightenment dbus liberation-fonts-ttf \
+    leafpad lxterminal bash \
+    mesa-ati-dri mesa-intel-dri mesa-nouveau-dri
 CMD enlightenment_start
